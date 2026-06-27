@@ -1,0 +1,27 @@
+Tokens: Smallest Unit of a python (identifiers, literals, punctuations,
+Statement: Single line of code 
+Comments: To understand the code #single line , ''' multiple line '''
+Variable: Container that stores the values
+Variable rules: 1.contains A-Z, a-z, 0 -9 ,__
+                2.Starts with A-Z, a -z,__
+                3.Doesn't contain keywords
+                4.Case sensitive
+Datatypes: Type is used to extract the datatype
+1.Numeric
+-----------
+1.int-immutable:cannot change within the same memory location
+2.float-immutable
+3.complex-immutable
+
+2.sequential
+-----------
+1.string:collection of characters represented with single or double quotes- immutable,ordered
+2.List:declare using square braces ,mutable ,ordered ,duplicates allowed
+3.Tuple:duplicates allowed ,immutable
+
+3.mapping datatypes
+---------------------
+1.set - mutable , inordered , no duplicates , curly braces 
+2.dictionary - mutable , ordered , 
+
+bool-True/False , immutable , 

@@ -1,0 +1,13 @@
+token:smallest unit of a code there are 4 types of tokens identifier,iterator,operator,key word,punctuator.
+statement:single line code
+comments:comments are written to understand the code. there are 2 types single line and multiple line
+variable:It is a container which store some value
+variable rules:
+ 1.It contains A-z,a-z,0-9
+ 2.It starts with A-z,a-z,_
+ 3.keywords are not allowed
+ 4.case sensitive
+python data types:
+1.numeric:int,float,complex
+2.sequential:str,list,tuple
+

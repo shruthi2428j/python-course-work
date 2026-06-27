@@ -1,0 +1,20 @@
+string - collection of characters enclosed b/w single or double quotes , immutable , ordered
+operations in string : 1.concatenation - using +
+2. Repeatation - use *
+3. Slicing - Accessing a group of characters . s[start:stop-1:step] , s[0:n-1], to reverse the strings use s[: :-1]
+4. Indexing - accessing a specific character . to access a particular character use indexing. to access last element str(-1).
+5. membership - in not in, 
+To find length use len()
+ascii character use ord('')
+based on ascii character characters are sorted using sorted()
+
+s.capitalize - to make all characters 
+alignment functions - s.center(60,'*') , s.ljust, s.rjust , zfill() - to fill , to search - s.find() - searches from left side , s.rfind() - right side first occurrence, s.rindex() -  ,s.index() , correct method is find not index.
+s.count() -  to find how many times letter repeates
+ 
+split()- used to split , s.rspilt() - separates right side , s.splitlines() - used to split based on lines , s.partition() - separates left part,middle part,right part , s.rpartition - right side 
+
+joint - converting list into string use .join() , to remove left and right side spaces use s.strip(),s.rstrip()
+replace function - s.replace() 
+translate function - to change one char to another in one step - s.translate() , s.maketrans()
+encode - convert string to bytes , decode - bytes to strings
